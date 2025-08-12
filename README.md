@@ -3,7 +3,7 @@ This repository contains Verilog code for a JEDEC JESD251C compliant xSPI contro
 # xSPI – Simple SPI-like Protocol (Controller + Slave)
 
 ## Overview
-This repository implements a **simple SPI-like protocol** (xSPI) in Verilog, with both a **controller (master)** and a **slave**.  
+This repository implements a (xSPI) in Verilog, with both a **controller (master)** and a **slave**.  
 It supports command/address/data transactions, CRC checking, and optional retransmission on CRC errors.
 
 The design uses an **8-bit wide IO bus** with shared tri-state-style control (simplified as multiplexed outputs here).  
